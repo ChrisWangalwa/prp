@@ -1,0 +1,5 @@
+name = "prp"
+compatibility_date = "2025-08-16"
+
+[[r2_buckets]]
+bucket_name = "prp-evidence"

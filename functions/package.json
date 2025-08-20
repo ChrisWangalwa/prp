@@ -1,0 +1,28 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "Firebase Cloud Functions for PRP",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.4.0",
+    "@google-cloud/firestore": "^6.8.0",
+    "google-gax": "^4.0.4",
+    "protobufjs": "^7.2.5"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "eslint": "^9",
+    "@typescript-eslint/parser": "^8",
+    "@typescript-eslint/eslint-plugin": "^8",
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
